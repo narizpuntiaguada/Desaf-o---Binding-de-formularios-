@@ -8,7 +8,7 @@
 
             <div>
                 <label>Chip SRC: </label>
-                <input v-model="chipsrc" disabled/>
+                <input placeholder="Chip no modificable"/>
             </div>
 
             <div>
@@ -28,7 +28,7 @@
 
             <div>
                 <label>Tipo de tarjeta SRC: </label>
-                <input v-model="tipoTarjetaSrc" disabled/>
+                <input placeholder="Tipo Tarjeta no modificable"/>
             </div>
         </form>
 
@@ -57,7 +57,7 @@ export default {
             chipsrc:"/img/chip.png",
             numero:"1234567898765432",
             fechaExpriracion:"12/99",
-            propietario:"Jose",
+            propietario:"Jose Alvarez Vara",
             tipoTarjetaSrc:"/img/visa.png",
 
 
